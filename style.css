@@ -1,49 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    text-align: center;
-}
-
-header {
-    background-color: brown;
-    color: white;
-    padding: 20px;
-}
-
-nav {
-    background-color: #f4f4f4;
-    padding: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    margin: 0 15px;
-    color: black;
-}
-
-section {
-    padding: 20px;
-}
-
-footer {
-    background-color: brown;
-    color: white;
-    padding: 15px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
     background-color: #f5f0e8;
     color: #333;
     text-align: center;
 }
 
+/* HEADER */
 header {
     background: linear-gradient(to right, #6f4e37, #8b5e3c);
     color: white;
@@ -55,6 +18,7 @@ header h1 {
     font-size: 3em;
 }
 
+/* MENU */
 nav {
     background-color: #d2b48c;
     padding: 15px;
@@ -72,6 +36,7 @@ nav a:hover {
     color: white;
 }
 
+/* SEÇÕES */
 section {
     padding: 40px 20px;
 }
@@ -80,6 +45,7 @@ h2 {
     color: #6f4e37;
 }
 
+/* CARDÁPIO */
 ul {
     list-style: none;
     padding: 0;
@@ -94,6 +60,7 @@ li {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
+/* FOOTER */
 footer {
     background-color: #6f4e37;
     color: white;
@@ -101,13 +68,7 @@ footer {
     margin-top: 30px;
 }
 
-.hero {
-    background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 100px 20px;
-}
+/* HERO (se usar na home) */
 .hero {
     background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
     background-size: cover;
@@ -127,6 +88,7 @@ footer {
     font-weight: bold;
 }
 
+/* BOTÃO */
 .btn-reserva {
     background-color: #6f4e37;
     color: white;
