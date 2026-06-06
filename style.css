@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: black;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f0e8;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to right, #6f4e37, #8b5e3c);
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+nav {
+    background-color: #d2b48c;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4a2c2a;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #6f4e37;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    width: 250px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+footer {
+    background-color: #6f4e37;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+}
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-reserva {
+    background-color: #6f4e37;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.btn-reserva:hover {
+    opacity: 0.9;
+}
